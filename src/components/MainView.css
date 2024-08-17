@@ -1,0 +1,37 @@
+/* src/components/MainView.css */
+.main-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    text-align: center; /* Center text for better readability */
+  }
+  
+  .main-view img {
+    width: 80%; /* Responsive width */
+    max-width: 300px; /* Maximum width for larger screens */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+  }
+  
+  .main-view h2 {
+    margin-top: 10px;
+  }
+  
+  .main-view p {
+    margin-top: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .main-view {
+      padding: 10px;
+    }
+  
+    .main-view img {
+      width: 100%; /* Full width for smaller screens */
+      max-width: none; /* Remove max-width constraint */
+    }
+  }
+  

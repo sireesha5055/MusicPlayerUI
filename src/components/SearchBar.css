@@ -1,0 +1,39 @@
+/* Default styles */
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Mobile styles for small screens */
+  @media (max-width: 480px) {
+    .search-bar {
+      padding: 8px;
+      margin-top: 10px;
+    }
+  }
+  
+  /* Mobile styles for medium screens */
+  @media (min-width: 481px) and (max-width: 767px) {
+    .search-bar {
+      padding: 10px;
+      margin-top: 15px;
+    }
+  }
+  
+  /* Tablet styles for larger screens */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .search-bar {
+      padding: 12px;
+      margin-top: 20px;
+    }
+  }
+  
+  /* Desktop styles for larger screens */
+  @media (min-width: 1025px) {
+    .search-bar {
+      padding: 14px;
+      margin-top: 20px;
+    }
+  }
+  

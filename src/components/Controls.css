@@ -1,0 +1,44 @@
+/* src/components/Controls.css */
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 5px; /* Decreased height */
+    background: #5b5959;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .progress {
+    height: 100%;
+    background: rgb(240, 236, 236);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 0.1s;
+  }
+  
+  .controls-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .controls-buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px; /* Adjust size as needed */
+    margin: 0 10px;
+    color: #333; /* Adjust color as needed */
+  }
+  
+  .controls-buttons button:focus {
+    outline: none;
+  }
+  
