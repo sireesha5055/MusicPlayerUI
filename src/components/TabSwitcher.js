@@ -2,7 +2,7 @@ import React from 'react';
 import './TabSwitcher.css';
 
 function TabSwitcher({ currentTab, onTabSwitch }) {
-  const tabs = ['For You', 'Top Hits']; // Example tabs
+  const tabs = ['For You', 'Top Hits']; 
 
   const handleTabClick = (tab) => {
     if (typeof onTabSwitch === 'function') {
