@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,3 +73,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 =======
 # MusicPlayerUI
 >>>>>>> edec89b997a0b775d54df9b007445c7c17db50e4
+=======
+# MusicPlayerAPP
+>>>>>>> bd387eccccf737242dcc4b1c6a024f12e3d7cf41
